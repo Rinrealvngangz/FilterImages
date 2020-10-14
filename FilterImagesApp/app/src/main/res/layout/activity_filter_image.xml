@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filterImage"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+    >
+    <LinearLayout
+        android:background="@color/colorbackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+
+            android:id="@+id/btnback"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorbackground"
+            android:src="@drawable/back30_btn"
+            >
+
+        </ImageButton>
+        <Space
+            android:layout_width="250dp"
+            android:layout_height="0dp">
+
+        </Space>
+        <Button
+
+            android:id="@+id/btnResult"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="xong"
+            android:textSize="15sp"
+            android:textColor="@color/colorTextEdit"
+            android:background="@color/colorbackground"
+
+            >
+        </Button>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:id="@+id/imgfilter"
+        android:background="@color/colorbackground"
+        >
+
+    </ImageView>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+
+        >
+
+    </Space>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:background="@color/colorbackground"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearitems"
+           >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image1"
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image2"
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image3"
+
+                >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image4"
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image5"
+
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image6"
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image7"
+
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image8"
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image9"
+
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image10"
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image11"
+
+                >
+            </ImageView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image12"
+                >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image13"
+
+                >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image14"
+                >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/image15"
+                >
+            </ImageView>
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+</LinearLayout>
